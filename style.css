@@ -1,0 +1,362 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu{
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.menu div a{
+    text-decoration: none;
+    padding: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+.menu div .jobs{
+    background-color: orangered;
+}
+
+.menu h1{
+    color: rgb(0, 132, 255);
+}
+.btn{
+    background-color: rgb(0, 132, 255);
+    padding: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    border: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#buton{
+    color: white;
+}
+
+.sec{
+    display: flex;
+    background-color: #e9e7dc;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec .photo img{
+    padding: 30px;
+    width: 580px;
+}
+.sec .intro h1{
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    color: orangered;
+}
+
+.sec .intro p{
+    padding: 25px;
+    text-align: center;
+}
+
+
+.btns .jobs{
+    background-color: orangered
+}
+
+.btns a{
+    text-decoration: none;
+}
+
+.sec2{
+    display: flex;
+    height: 450px;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 30px;
+}
+
+.sec2 .left h1{
+    font-size: 55px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.sec2 .left p{
+    padding-bottom: 20px;
+}
+
+.sec2 .left a{
+    text-decoration: none;
+    text-align: left;
+    align-self: flex-start;
+}
+
+.right{
+    display: flex;
+    width: 50%;
+}
+
+.right .icons img{
+    width: 75px;
+    height: 75px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 25px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sec3{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #e9e7dc;
+}
+
+.sec3 h1{
+    padding: 25px;
+    text-align: center;
+    font-size: 50px;
+    color: orangered;
+}
+
+.sec3 h3{
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.sec3 .imgs img{
+    width: 240px;
+    height: 180px;
+}
+
+.imgs{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-right: 30px;
+}
+
+.imgs figcaption{
+    text-align: center;
+    font-weight: bold;
+}
+
+.sec4{
+    display: flex;
+}
+
+.sec4 .abtme img{
+    width: 580px;
+    padding: 30px;
+    padding-top: 100px;
+}
+
+.sec4 .text h1{
+    font-size: 50px;
+    color: orangered;
+    padding: 30px;
+}
+
+.sec4 .text p{
+    padding: 15px;
+}
+
+.sec5{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color:#e9e7dc;
+}
+
+.dsgn, .artd, .polyg{
+    text-align: center;
+    background-color: white;
+    padding-block-end: 50px;
+    width: 300px;
+}
+
+.sec5 #price{
+    color: rgb(0, 132, 255);
+    font-size: 55px;
+}
+
+.sec5 h1{
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+.tabs{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.tabs p{
+    padding: 5px;
+}
+
+.sec5 hr{
+    width: 150px;
+    color: black;
+}
+
+.sec6{
+    display: flex;
+    justify-content: space-around;
+    padding: 75px;
+}
+
+.sec6 img{
+    width: 215px;
+    height: 215px;
+    padding: 30px;
+}
+
+.c1, .c2, .c3{
+    text-align: center;
+    background-color:#e9e7dc;
+    padding-block-end: 50px;
+    width: 300px;
+}
+
+.sec6 p{
+    padding: 25px;
+}
+
+.sec9{
+    display: flex;
+    padding: 50px;
+    background-color:#e9e7dc;
+}
+
+.sec9 .cme{
+    padding-left: 150px;
+    padding-right: 140px;
+}
+
+.sec9 img{
+    width: 580px;
+    padding: 10px;
+}
+
+.sec9 #email, .sec9 #name, .sec9 #msg{
+    padding: 8px;
+}
+
+.sec9 #msg{
+    padding-bottom: 20px;
+}
+
+.sec9 .cme form{
+    display: flex;
+    flex-direction: column;
+}
+
+.sec9 h1, .sec9 p{
+    padding: 15px;
+}
+
+.sec9 h1{
+    color: orangered;
+    font-weight: bold;
+}
+
+.sec9 .cme form #butt{
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border: 0;
+}
+
+.sec10{
+    display: flex;
+    flex-direction: column;
+}
+
+.sec10 #mycon{
+    color: orangered;
+    font-size: 50px;
+    padding: 25px;
+    text-align: center;
+    
+}
+
+.iconss{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.ic1, .ic2, .ic3, .ic4{
+    display: flex;
+    width: 50%;
+    background-color: #e9e7dc;
+    padding: 20px;
+}
+
+.ic1{
+    border-left: 50px solid white;
+    border-right: 10px solid white;
+    border-bottom: 10px solid white;
+}
+.ic2{
+    border-right: 50px solid white;
+    border-left: 10px solid white;
+    border-bottom: 10px solid white;
+}
+.ic3{
+    border-left: 50px solid white;
+    border-right: 10px solid white;
+    border-top: 10px solid white;
+    border-bottom: 50px solid white;
+}
+.ic4{
+    border-right: 50px solid white;
+    border-left: 10px solid white;
+    border-top: 10px solid white;
+    border-bottom: 50px solid white;
+}
+
+.iconss img{
+    width: 80px;
+    height: 80px;
+    padding: 25px;
+}
+
+
+footer{
+    text-align: center;
+    background-color: darkslategrey;
+    color: white;
+    padding: 5px;
+}
